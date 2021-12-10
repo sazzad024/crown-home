@@ -19,14 +19,15 @@
 
     <!-- Website Title -->
     <title>Article Details - Corso</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+   <!-- Styles -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+   <link href="Assets/css/bootstrap.css" rel="stylesheet">
+   <link href="Assets/css/fontawesome-all.css" rel="stylesheet">
+   <link href="Assets/css/swiper.css" rel="stylesheet">
+   <link href="Assets/css/magnific-popup.css" rel="stylesheet">
+   <link href="Assets/css/styles.css" rel="stylesheet">
+   <link rel="stylesheet" href="Assets/css/custom-style.css">
+   
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
@@ -45,13 +46,18 @@
     
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top my-nav">
 
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Corso</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="index.html">
+            <!--
+                <img src="Assets/images/logo.svg" alt="alternative">
+            -->
+            <h1>ক্রাউন</h1> 
+            </a> 
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,27 +69,27 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#register">REGISTER <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#register">নোটিশ বোর্ড <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#description">DETAILS</a>
+                    <a class="nav-link page-scroll" href="#description">ডাউনলোড</a>
                 </li>
 
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="index.html#date" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DATE</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">দৈনন্দিন</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="article-details.html"><span class="item-text">ARTICLE DETAILS</span></a>
+                        <a class="dropdown-item" href="article-details.html"><span class="item-text">ক্লাস রুটিন</span></a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">পরীক্ষার ফলাফল</span></a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text"></span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="index.html#contact">CONTACT</a>
+                    <a class="nav-link page-scroll" href="#contact">যোগাযোগ</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -110,28 +116,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="white">Longer Article Title Should Definitely Go Here</h1>
+                    <h1 class="white">কুইজ প্রতিযোগিতা- ২০২১ </h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </header> <!-- end of ex-header -->
     <!-- end of header -->
-
-
-    <!-- Breadcrumbs -->
-    <div class="ex-basic-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Longer Article Title Should Go Here</span>
-                    </div> <!-- end of breadcrumbs -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of ex-basic-1 -->
-    <!-- end of breadcrumbs -->
-
 
     <!-- Privacy Content -->
     <div class="ex-basic-2">
@@ -245,14 +235,16 @@
     <!-- end of breadcrumbs -->
 
     
+    
+
     <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="footer-col first">
-                        <h5>About Corso</h5>
-                        <p class="p-small">We're passionate about teaching people how to do better SEO for their online presence</p>
+                        <h5>About Crown</h5>
+                        <p class="p-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reiciendis nihil? Praesentium adipisci alias harum minima nihil corrupti.</p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-3">
@@ -328,7 +320,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> - All rights reserved</p>
+                    <p class="p-small">Copyright © 2021 Crown-Coaching - All rights reserved</p>
+                    <p class="p-small">Design & Developed by <a href="https://wwww.facebook.com/sazzad.024">MD. SAZZAD HOSSAIN</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
@@ -336,15 +329,17 @@
     <!-- end of copyright -->
     
     	
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+     <!-- Scripts -->
+     <script src="Assets/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+     <script src="Assets/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+     <script src="Assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+     <script src="Assets/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+     <script src="Assets/js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+     <script src="Assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+     <script src="Assets/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+     <script src="Assets/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+     <script src="Assets/js/scripts.js"></script> <!-- Custom scripts -->
+
+
 </body>
 </html>

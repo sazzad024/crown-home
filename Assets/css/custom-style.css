@@ -240,6 +240,12 @@ body {
 /* ************************* */
 /*           @MEDIA          */
 /* ************************* */
+@media (max-width: 400px) and (min-width: 0px) {
+  .outer-container {
+    margin-top: 3rem;
+  }
+}
+
 @media (max-width: 768px) and (min-width: 0px) {
   #features {
     padding-top: 8rem;

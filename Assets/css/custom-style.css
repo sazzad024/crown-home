@@ -230,20 +230,33 @@ body {
   text-decoration: none;
 }
 
+.quiz-form-download {
+  text-decoration: none;
+  padding: 1rem 1.3rem;
+  font-size: 1.5rem;
+  background-color: #ffbd50;
+}
+
 /* ************************* */
 /*           @MEDIA          */
 /* ************************* */
+@media (max-width: 768px) and (min-width: 0px) {
+  #features {
+    padding-top: 8rem;
+  }
+}
+
 @media (min-width: 768px) {
   .slider-img-size img {
     width: 90vw;
-    height: 40vw;
+    height: auto;
   }
 }
 
 @media (min-width: 992px) {
   .slider-img-size img {
     width: 80vw;
-    height: 40vw;
+    height: 50vw;
   }
 }
 
